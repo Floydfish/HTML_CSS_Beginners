@@ -8,12 +8,22 @@
         <style type="text/css">
         
             #div1 {
-                width: 90%;
-                height: 50em;
+                width: auto;
+                /* min-width: 600px; */
+                /* max-width: 800px; */
+                height: 50vh;
                 border: 1em solid black;
                 background-image: url(bg.jpg);
                 background-repeat: no-repeat;
                 background-position: center;
+            }
+
+            img {
+                opacity: 0.9;
+            }
+
+            img:hover {
+                opacity: 0.1;
             }
 
         </style>
@@ -21,6 +31,9 @@
     <body>
 
         <div id="div1"></div>
+        <div>
+            <img src="bg.jpg" width="640" height="400">
+        </div>
         
     </body>
 </html>
